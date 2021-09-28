@@ -1,0 +1,30 @@
+{
+  "name": "essence_of_music",
+  "version": "1.0.0",
+  "description": "Essence of Music (EOM)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thurstoncox3/Essence_Of_Music.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thurstoncox3/Essence_Of_Music/issues"
+  },
+  "homepage": "https://github.com/Thurstoncox3/Essence_Of_Music#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
