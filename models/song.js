@@ -19,7 +19,7 @@ Song.init(
         }
     },
     lyrics: {
-        type: DataTypes.TEXT,
+        type: DataTypes.STRING,
         allowNull: false
     },
     youtube: {
