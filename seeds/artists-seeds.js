@@ -1,4 +1,4 @@
-const { Artist } = require('../models');
+const { Artists } = require('../models');
 
 const artistData = [
     {
@@ -11,6 +11,6 @@ const artistData = [
     },
 ];
 
-const seedArtist = () => Artist.bulkCreate(artistData)
+const seedArtist = () => Artists.bulkCreate(artistData)
 
 module.exports = seedArtist

@@ -43,7 +43,7 @@ Album.belongsTo(Artists, {
   foreignKey: 'artist_id'
 });
 
-//album hasMany songs, song belong to album
+//album hasMany song, song belong to album
 Album.hasMany(Song, {
     foreignKey: 'song_id',
     onDelete: 'CASCADE'
@@ -72,4 +72,6 @@ User.hasMany(Favorites, {
 Favorites.belongsTo(User, {
     foreignKey: 'user_id'
 })
-module.exports = { };
+
+
+module.exports = { Artists, Album, Genre, Song , User ,Favorites};

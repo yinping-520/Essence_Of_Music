@@ -11,13 +11,13 @@ Genre.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    genre: {
+    genre_name: {
         type: DataTypes.STRING,
         allowNull: false
     },
     JPG: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     }
   },
   {
