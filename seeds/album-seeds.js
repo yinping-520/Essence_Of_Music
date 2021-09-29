@@ -8,8 +8,8 @@ const albumData = [
         artist_id: 1,
     },
     {
-        album: 'Amanete Bandido',
-        song: ['Bandido','placeholder'],
+        album: 'Bandido',
+        song: 'Thing, Amanete Bandido',
         artist_id: 2,
     },
 ];
