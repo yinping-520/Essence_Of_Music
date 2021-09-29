@@ -11,7 +11,7 @@ Song.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    song_id: {
+    album_id: {
         type: DataTypes.INTEGER,
         references: {
             model: 'album',

@@ -4,7 +4,7 @@ const seedAlbum = require('./album-seeds');
 const seedSong = require('./song-seeds');
 const seedFavorite = require('./favorites-seeds')
 
-const sequelize = require('./config/connection')
+const sequelize = require('../config/connection')
 
 const seedAll = async () => {
     await sequelize.sync({ force:true});
@@ -17,7 +17,7 @@ const seedAll = async () => {
     await seedAlbum();
     console.log('\n--album is synced---\n')
     await seedSong();
-    console.log('\n--songs is synced---\n')
+    console.log('\n--song is synced---\n')
     await seedFavorite();
     console.log('\n--favorites is synced---\n')
 

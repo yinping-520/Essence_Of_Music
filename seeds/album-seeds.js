@@ -4,12 +4,12 @@ const { Album } = require('../models');
 const albumData = [
     {
         album: 'single',
-        songs: 'Take My Breath',
+        song: 'Take My Breath',
         artist_id: 1,
     },
     {
-        album: ['Bandido','placeholder'],
-        songs: 'Amanete Bandido',
+        album: 'Amanete Bandido',
+        song: ['Bandido','placeholder'],
         artist_id: 2,
     },
 ];
