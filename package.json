@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Thurstoncox3/Essence_Of_Music#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
