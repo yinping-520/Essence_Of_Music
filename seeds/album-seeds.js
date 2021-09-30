@@ -1,6 +1,3 @@
-const { Album } = require('../models');
-
-
 const albumData = [
     {
         album: '',
@@ -9,27 +6,27 @@ const albumData = [
     },
     {
         album: '2',
-        song: '2',
+        song: 'Woman',
         artist_id: 2,
     },
     {
         album: '3',
-        song: '3',
+        song: 'Shivers',
         artist_id: 3,
     },
     {
         album: '4',
-        song: '4',
+        song: 'My Universe',
         artist_id: 4,
     },
     {
         album: '5',
-        song: '5',
+        song: 'Have Mercy',
         artist_id: 5,
     },
     {
         album: '6',
-        song: '65',
+        song: ' Happier Than Ever',
         artist_id: 6,
     },
     {
@@ -39,87 +36,87 @@ const albumData = [
     },
     {
         album: '',
-        song: '',
+        song: 'Peppas',
         artist_id: 8,
     },
     {
         album: '',
-        song: '',
+        song: 'Love again',
         artist_id: 9,
     },
     {
         album: '',
-        song: '',
+        song: 'Heat Wave',
         artist_id: 10,
     },
     {
         album: '',
-        song: '',
+        song: 'Hurricane',
         artist_id: 11,
     },
     {
         album: '',
-        song: '',
+        song: 'Kiss Somebody',
         artist_id: 12,
     },
     {
         album: '',
-        song: '',
+        song: 'Burn OUt',
         artist_id: 13,
     },
     {
         album: '',
-        song: '',
+        song: 'Achy Breaky Heart',
         artist_id: 14,
     },
     {
         album: '',
-        song: '',
+        song: 'Tennesse WHisky',
         artist_id: 15,
     },
     {
         album: '',
-        song: '',
+        song: 'Get Along',
         artist_id: 16,
     },
     {
         album: '',
-        song: '',
+        song: 'Loud and Heavy',
         artist_id: 17,
     },
     {
         album: '',
-        song: '',
+        song: 'Hangin On',
         artist_id: 18,
     },
     {
         album: '',
-        song: '',
+        song: 'Drunk Me',
         artist_id: 19,
     },
     {
         album: '',
-        song: '',
+        song: 'Best Shot',
         artist_id: 20,
     },
     {
         album: '',
-        song: '',
+        song: 'Knife Talk',
         artist_id: 21,
     },
     {
         album: '',
-        song: '',
+        song: 'Sharing Locations',
         artist_id: 22,
     },
     {
         album: '',
-        song: '',
+        song: 'Lonely ',
         artist_id: 23,
     },
     {
         album: '',
-        song: '',
+        song: 'Too Easy',
         artist_id: 24,
     },
     {
