@@ -1,3 +1,6 @@
+const { Album } = require('../models');
+
+
 const albumData = [
     {
         album: '',
@@ -121,52 +124,77 @@ const albumData = [
     },
     {
         album: '',
-        song: '',
+        song: 'Your Heart',
         artist_id: 25,
     },
     {
         album: '',
-        song: '',
+        song: '2055',
         artist_id: 26,
     },
     {
         album: '',
-        song: '',
+        song: 'Repeat i',
         artist_id: 27,
     },
     {
         album: '',
-        song: '',
+        song: 'Wokesha',
         artist_id: 28,
     },
     {
         album: '',
-        song: '',
+        song: 'Jail pt.2',
         artist_id: 29,
     },
     {
         album: '',
-        song: '',
+        song: 'Dreams Unfold',
         artist_id: 30,
     },
     {
-        album: '',
-        song: '',
+        album: 'Cuatro Caminos',
+        song: 'Eres',
         artist_id: 31,
     },
     {
-        album: '',
-        song: '',
+        album: 'Avalancha de Éxitos',
+        song: 'Como te extraño mi amor' ,
+        artist_id: 31,
+    },
+    {
+        album: 'Amor de mis Amores ',
+        song: 'Mi cucu, Amor de mis Amores, El Viejo del Sombrerón',
         artist_id: 32,
     },
     {
         album: 'Bandido',
-        song: 'Thing, Amanete Bandido',
+        song: 'Amanete Bandido',
         artist_id: 33,
     },
     {
-        album: '',
-        song: '',
+        album: 'Sereno',
+        song: 'Morena Mia',
+        artist_id: 33,
+    },
+    {
+        album: 'El último adiós',
+        song: 'El último adiós',
+        artist_id: 33,
+    },
+    {
+        album: 'Vida',
+        song: 'Despacito',
+        artist_id: 34,
+    },
+    {
+        album: 'Single',
+        song: 'Con Calma',
+        artist_id: 34,
+    },
+    {
+        album: 'Single',
+        song: 'Shaky Shaky',
         artist_id: 34,
     },
 ];
