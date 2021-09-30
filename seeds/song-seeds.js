@@ -3,37 +3,37 @@ const { Song } = require('../models');
 
 const songData = [
     {
-        song:'',
+        song:'Industry Baby',
         lyrics:'',
         youtube:'',
         album_id: 1
     },
     {
-        song:'',
+        song:'Woman',
         lyrics:'',
         youtube:'',
         album_id: 2
     },
     {
-        song:'',
+        song:'Shivers',
         lyrics:'',
         youtube:'',
         album_id: 3
     },
     {
-        song:'',
+        song:'My Universe',
         lyrics:'',
         youtube:'',
         album_id: 4
     },
     {
-        song:'',
+        song:'Have Mercy',
         lyrics:'',
         youtube:'',
         album_id: 5
     },
     {
-        song:'',
+        song:'Happier Than Ever',
         lyrics:'',
         youtube:'',
         album_id: 6
@@ -45,178 +45,208 @@ const songData = [
         album_id: 7
     },
     {
-        song:'',
+        song:'Peppas',
         lyrics:'',
         youtube:'',
         album_id: 8
     },
     {
-        song:'',
+        song:'Love again',
         lyrics:'',
         youtube:'',
         album_id: 9
     },
     {
-        song:'',
+        song:'Heat Wave',
         lyrics:'',
         youtube:'',
         album_id: 10
     },
     {
-        song:'',
+        song:'Hurricane',
         lyrics:'',
         youtube:'',
         album_id: 11
     },
     {
-        song:'',
+        song:'Kiss Somebody',
         lyrics:'',
         youtube:'',
         album_id: 12
     },
     {
-        song:'',
+        song:'Burn Out',
         lyrics:'',
         youtube:'',
         album_id: 13
     },
     {
-        song:'',
+        song:'Achy Breaky Hearts',
         lyrics:'',
         youtube:'',
         album_id: 14
     },
     {
-        song:'',
+        song:'Tennesse Whisky',
         lyrics:'',
         youtube:'',
         album_id: 15
     },
     {
-        song:'',
+        song:'Get Along',
         lyrics:'',
         youtube:'',
         album_id: 16
     },
     {
-        song:'',
+        song:'Loud and Heavy',
         lyrics:'',
         youtube:'',
         album_id: 17
     },
     {
-        song:'',
+        song:'Hangin On',
         lyrics:'',
         youtube:'',
         album_id: 18
     },
     {
-        song:'',
+        song:'Drunk Me',
         lyrics:'',
         youtube:'',
         album_id: 19
     },
     {
-        song:'',
+        song:'Best Shot',
         lyrics:'',
         youtube:'',
         album_id: 20
     },
     {
-        song:'',
+        song:'Knife Talk',
         lyrics:'',
         youtube:'',
         album_id: 21
     },
     {
-        song:'',
+        song:'Sharing Locations',
         lyrics:'',
         youtube:'',
         album_id: 22
     },
     {
-        song:'',
+        song:'Lonely',
         lyrics:'',
         youtube:'',
         album_id: 23
     },
     {
-        song:'',
+        song:'Too Easy',
         lyrics:'',
         youtube:'',
         album_id: 24
     },
     {
-        song:'',
+        song:'Your Heart',
         lyrics:'',
         youtube:'',
         album_id: 25
     },
     {
-        song:'',
+        song:'2055',
         lyrics:'',
         youtube:'',
         album_id: 26
     },
     {
-        song:'',
+        song:'Repeat it',
         lyrics:'',
         youtube:'',
         album_id: 27
     },
     {
-        song:'',
+        song:'MoneyBagg Yo',
         lyrics:'',
         youtube:'',
         album_id: 28
     },
     {
-        song:'',
+        song:'Jail pt.2',
         lyrics:'',
         youtube:'',
         album_id: 29
     },
     {
-        song:'',
+        song:'Dream Unfold',
         lyrics:'',
         youtube:'',
         album_id: 30
     },
     {
-        song:'',
+        song:'Eres',
         lyrics:'',
         youtube:'',
         album_id: 31
     },
     {
-        song:'',
-        lyrics:'',
-        youtube:'',
-        album_id: 31
-    },
-    {
-        song:'',
+        song:'Como te extraño mi amor',
         lyrics:'',
         youtube:'',
         album_id: 32
     },
     {
+        song:'Mi cucu',
+        lyrics:'',
+        youtube:'',
+        album_id: 33
+    },
+    {
+        song:'Amor de mis Amores',
+        lyrics:'',
+        youtube:'',
+        album_id: 33
+    },
+    {
+        song:'El Viejo del Sombrerón',
+        lyrics:'',
+        youtube:'',
+        album_id: 33
+    },
+    {
         song:'Amanete Bandido',
         lyrics:'Yo seré el viento que va Navegaré por tu oscuridadTu rocío, beso frío, que me quemará',
         youtube:'https://www.youtube.com/watch?v=lA9p_fpUxnY',
-        album_id: 33
+        album_id: 34
     },
     {
-        song:'Thing',
-        lyrics:'Yo seré el viento que va Navegaré por tu oscuridadTu rocío, beso frío, que me quemará',
-        youtube:'https://www.youtube.com/watch?v=lA9p_fpUxnY',
-        album_id: 33
-    },
-    {
-        song:'',
+        song:'Morena Mia',
         lyrics:'',
         youtube:'',
-        album_id: 34
+        album_id: 35
+    },
+    {
+        song:'El último adiós',
+        lyrics:'',
+        youtube:'',
+        album_id: 36
+    },
+    {
+        song:'Despacito',
+        lyrics:'',
+        youtube:'',
+        album_id: 37
+    },
+    {
+        song:'Con Calma',
+        lyrics:'',
+        youtube:'',
+        album_id: 38
+    },
+    {
+        song:'Shaky Shaky',
+        lyrics:'',
+        youtube:'',
+        album_id: 39
     },
 ];
 
