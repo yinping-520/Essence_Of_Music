@@ -15,10 +15,10 @@ Album.init(
       type: DataTypes.STRING,
       allowNull: false
   },
-    song: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
+  image: {
+    type: DataTypes.STRING,
+    allowNull: true
+},
     artist_id: {
         type: DataTypes.INTEGER,
         references: {
