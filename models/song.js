@@ -18,6 +18,13 @@ Song.init(
             key: 'id'
         }
     },
+    genre_id: {
+      type: DataTypes.INTEGER,
+      references: {
+          model: 'genre',
+          key: 'id'
+      }
+  },
     lyrics: {
         type: DataTypes.STRING,
         allowNull: false

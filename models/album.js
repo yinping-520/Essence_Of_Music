@@ -18,7 +18,7 @@ Album.init(
     artist_id: {
         type: DataTypes.INTEGER,
         references: {
-            model: 'artists',
+            model: 'artist',
             key: 'id'
         }
     }

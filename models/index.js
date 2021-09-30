@@ -1,77 +1,62 @@
-const Artists = require('./artists');
+const Artist = require('./artist');
 const Album = require('./album');
 const Genre = require('./genre');
 const Song = require('./song');
 const User = require('./user');
-const Favorites = require('./favorites');
+const Favorite = require('./favorite');
 
-//association between user and artists
-Artists.belongsToMany(User, {
+//association between user and artist
+Artist.belongsToMany(User, {
   // Define the third table needed to store the foreign keys
   through: {
-    model: Favorites,
+    model: Favorite,
     unique: false
   }
 });
   
-User.belongsToMany(Artists, {
+User.belongsToMany(Artist, {
   // Define the third table needed to store the foreign keys
   through: {
-    model: Favorites,
+    model: Favorite,
     unique: false
   }
 });
 
-//genre has many artists, artist belong to genre
-Genre.hasMany(Artists, {
+//genre has many artist, artist belong to genre
+Genre.hasMany(Artist, {
   foreignKey: 'genre_id',
   onDelete: 'CASCADE'
 });
 
-Artists.belongsTo(Genre, {
+Artist.belongsTo(Genre, {
   foreignKey: 'genre_id'
 });
 
-//artists hasMany album, album belong to artists
+//artist hasMany album, album belong to artist
 
-Artists.hasMany(Album, {
+Artist.hasMany(Album, {
   foreignKey: 'artist_id',
   onDelete: 'CASCADE'
 });
 
-Album.belongsTo(Artists, {
+Album.belongsTo(Artist, {
   foreignKey: 'artist_id'
 });
 
 //album hasMany song, song belong to album
 Album.hasMany(Song, {
-    foreignKey: 'song_id',
+    foreignKey: 'album_id',
     onDelete: 'CASCADE'
 });
 
 Song.belongsTo(Album, {
-    foreignKey: 'song_id'
+    foreignKey: 'album_id'
 });
 
-//artist  has many favorite, favorite belong to artist
-Artists.hasMany(Favorites, {
-    foreignKey: 'artist_id',
-    onDelete: 'CASCADE'
+Song.belongsTo(Genre, {
+  foreignKey: 'genre_id'
 });
 
-Favorites.belongsTo(Artists, {
-    foreignKey: 'artist_id'
-})
-
-//users hasMany favorite, favorite belong to user
-User.hasMany(Favorites, {
-    foreignKey: 'user_id',
-    onDelete: 'CASCADE'
-});
-
-Favorites.belongsTo(User, {
-    foreignKey: 'user_id'
-})
 
 
-module.exports = { Artists, Album, Genre, Song , User ,Favorites};
+module.exports = { Artist, Album, Genre, Song , User ,Favorite};
