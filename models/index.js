@@ -53,6 +53,11 @@ Song.belongsTo(Album, {
     foreignKey: 'album_id'
 });
 
+Genre.hasMany(Song, {
+  foreignKey: 'genre_id',
+  onDelete: 'CASCADE'
+});
+
 Song.belongsTo(Genre, {
   foreignKey: 'genre_id'
 });
