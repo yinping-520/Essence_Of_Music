@@ -11,6 +11,10 @@ Song.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    song: {
+      type: DataTypes.STRING,
+      allowNull: false
+  },
     album_id: {
         type: DataTypes.INTEGER,
         references: {

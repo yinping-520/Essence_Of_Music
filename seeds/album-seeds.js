@@ -74,7 +74,7 @@ const albumData = [
     },
     {
         album: 'Traveller',
-        song: 'Tennesse WHisky',
+        song: 'Tennesse Whisky',
         artist_id: 15,
     },
     {
