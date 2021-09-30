@@ -1,15 +1,15 @@
-const { Favorites } = require('../models');
+const { Favorite } = require('../models');
 
 
-const favoritesData = [
+const favoriteData = [
     {
-        favorites:'My Favorites',
+        favorite:'My Favorite',
         
 
     },
 
 ];
 
-const seedFavorite = () => Favorites.bulkCreate(favoritesData)
+const seedFavorite = () => Favorite.bulkCreate(favoriteData)
 
 module.exports = seedFavorite

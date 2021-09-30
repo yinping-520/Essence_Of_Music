@@ -15,7 +15,7 @@ Genre.init(
         type: DataTypes.STRING,
         allowNull: false
     },
-    JPG: {
+    image: {
         type: DataTypes.STRING,
         allowNull: true
     }
