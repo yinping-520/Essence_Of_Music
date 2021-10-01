@@ -4,8 +4,8 @@ const { Song } = require('../models');
 const songData = [
     {
         song:'Industry Baby',
-        lyrics:'',
-        youtube:'',
+        lyrics:'Baby back, ayy Couple racks, ayy Couple Grammys on him Couple plaques, ayy That\'s a fact, ayy Throw it back, ayy Throw it back, ayy',
+        youtube:'https://www.youtube.com/watch?v=HCq1OcAEAm0',
         album_id: 1,
         genre_id: 1
     },
