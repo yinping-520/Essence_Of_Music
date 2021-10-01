@@ -18,13 +18,12 @@
           {{#if loggedIn}}
           <button id="logout" class="btn-no-style">Logout</button>
           {{else}}
-          <a href="./js/login.js">Login</a>
+          <a href="/login">Login</a>
           {{/if}}
         </nav>
         
       </div>
   </div>
-  
   <main>
     <div class="container-fluid">
       <div class="row">
@@ -35,10 +34,10 @@
       </div>
     {{#if loggedIn}}
 
-    <script src="./js/logout.js"></script>
+    <script src="/js/logout.js"></script>
     <button id="logout" class="btn-no-style">Logout</button>
     {{else}}
-    <a href="/js/login.js">Login</a>
+    <a href="/login">Login</a>
 
     {{/if}}
       <form>
