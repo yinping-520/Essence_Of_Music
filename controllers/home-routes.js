@@ -1,6 +1,9 @@
 const router = require("express").Router();
 const { Genre, Artist, Song, Album } = require("../models");
 
+const withAuth = require('../utils/auth')
+
+
 router.get("/", async (req, res) => {
   try {
     const genreData = await Genre.findAll();
@@ -13,9 +16,10 @@ router.get("/", async (req, res) => {
   }
 });
 
+
 router.get("/genre/:id", async (req, res) => {
-  // if (!req.session.loggedIn) {
-  //   res.redirect("/login");} else {
+  if (!req.session.loggedIn) {
+    res.redirect("/login");} else {
     try {
       const genreData = await Genre.findByPk(req.params.id, {
         include: [{model: Artist}],
@@ -28,10 +32,11 @@ router.get("/genre/:id", async (req, res) => {
       console.log(err);
       res.status(500).json(err);
     }
-  });
+  };
+});
 
 //search by artist's name?????????
-router.get("/artist/:artist", async (req, res) => {
+router.get("/artist/:artist", withAuth, async (req, res) => {
     // if (!req.session.loggedIn) {
     //   res.redirect("/login");
     // } else {}) loggedIn: req.session.loggedIn ;
@@ -47,7 +52,7 @@ router.get("/artist/:artist", async (req, res) => {
       } catch (err) {res.status(500).json(err)}
     });
 
-router.get("/artist/:id", async (req, res) => {
+router.get("/artist/:id", withAuth, async (req, res) => {
   // if (!req.session.loggedIn) {
   //   res.redirect("/login");
   // } else {}) loggedIn: req.session.loggedIn ;
@@ -69,7 +74,7 @@ router.get("/login", (req, res) => {
     res.redirect("/");
     return;
   }
-  res.render("login");
+  res.render("login", {loggedIn: req.session.loggedIn});
 });
 
 module.exports = router;
