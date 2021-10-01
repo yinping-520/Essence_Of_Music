@@ -1,12 +1,12 @@
-async function newFormHandler(event) {
-    event.preventDefault();
-    const artist = document.querySelector('#').value;
-    
-    const response = await fetch(`/artist`)
-    if (response.ok) {
-      response
-    } 
-  }
+function newFormHandler(event) {
   
-  document.querySelector('').addEventListener('submit', newFormHandler);
+  
+    const artist = document.querySelector('#artist').value;
+    
+    fetch(`http://localhost:3001/artist/name/${artist}`)
+    .then(response => response)
+    } 
+  
+  
+  document.querySelector('#form').addEventListener('submit', newFormHandler);
     
