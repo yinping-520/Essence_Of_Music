@@ -14,7 +14,7 @@ const artistData = [
     {
         artist: 'Ed Sheeran',
         genre_id: 1,
-        image:'ed'
+        image:'ed.jpg'
     },
     {
         artist: 'Coldplay',

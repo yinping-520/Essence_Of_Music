@@ -36,6 +36,10 @@ Song.init(
     youtube: {
         type: DataTypes.STRING,
         allowNull: false
+    },
+    audio: {
+        type: DataTypes.STRING,
+        allowNull: false
     }
   },
   {
