@@ -3,19 +3,19 @@ const { Genre } = require('../models');
 const genreData = [
     {
         genre_name: 'Pop',
-        image:''
+        image:'popmusic.jpeg'
     },
     {
         genre_name: 'Country',
-        image:''
+        image:'countrymusic.jpg'
     },
     {
         genre_name: 'Hip Hop',
-        image:''
+        image:'hiphopmusic.jpg'
     },
     {
         genre_name: 'Latin',
-        image:''
+        image:'spanishmusic.jpg'
     },
 ];
 
