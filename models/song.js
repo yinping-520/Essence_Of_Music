@@ -11,7 +11,7 @@ Song.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    song: {
+    song_name: {
       type: DataTypes.STRING,
       allowNull: false
   },

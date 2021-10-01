@@ -5,12 +5,12 @@
              <a href="">
              {{#each artist.albums as |album|}}
              <div class="card-body"> 
-             <h5 class="card-title text-center">{{album.album}}</h5>
+             <h5 class="card-title text-center">{{album.album_name}}</h5>
              </div>
-             <img src="/assets/{{image}} " class="card-img-top" alt="{{image}}">
+             <img src="/assets/artCovers/{{image}} " class="card-img-top" alt="{{image}}">
              </a>
              {{#each album.songs as |song|}}
-             <li>{{song.song}}</li>
+             <a href=""><li>{{song.song_name}}</li></a>
              {{/each}}
          </div> 
      </div> 

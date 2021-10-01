@@ -3,238 +3,238 @@ const { Album } = require('../models');
 
 const albumData = [
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Industry Baby',
         artist_id: 1,
-        image:''
+        image:'industry.jpg'
     },
     {
-        album: 'Planet Her',
+        album_name: 'Planet Her',
         song: 'Woman',
         artist_id: 2,
-        image:''
+        image:'dojaPlanet.jpeg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Shivers',
         artist_id: 3,
-        image:''
+        image:'shivers.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'My Universe',
         artist_id: 4,
-        image:''
+        image:'coldAlbum1.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Have Mercy',
         artist_id: 5,
-        image:''
+        image:'chloealbum.png'
     },
     {
-        album: 'Happier Than Ever',
+        album_name: 'Happier Than Ever',
         song: 'Happier Than Ever',
         artist_id: 6,
-        image:''
+        image:'billieAlbum.jpeg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Take My Breath',
         artist_id: 7,
-        image:''
+        image:'weekAlbum.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Peppas',
         artist_id: 8,
-        image:''
+        image:'farrukoSingle.jpg'
     },
     {
-        album: 'Future Nostalgia',
+        album_name: 'Future Nostalgia',
         song: 'Love again',
         artist_id: 9,
-        image:''
+        image:'lipaAlbum.jpg'
     },
     {
-        album: 'Dreamland',
+        album_name: 'Dreamland',
         song: 'Heat Wave',
         artist_id: 10,
-        image:''
+        image:'glassAlbum.jpg'
     },
     {
-        album: 'This One\'s for you',
+        album_name: 'This One\'s for you',
         song: 'Hurricane',
         artist_id: 11,
-        image:''
+        image:'lukeAlbum.jpg'
     },
     {
-        album: 'Things That We Drink To',
+        album_name: 'Things That We Drink To',
         song: 'Kiss Somebody',
         artist_id: 12,
-        image:''
+        image:'morganAlbum.jpg'
     },
     {
-        album: 'On The Rocks',
+        album_name: 'On The Rocks',
         song: 'Burn Out',
         artist_id: 13,
-        image:''
+        image:'midlandAlbum.jpg'
     },
     {
-        album: 'Some Gave All',
+        album_name: 'Some Gave All',
         song: 'Achy Breaky Hearts',
         artist_id: 14,
-        image:''
+        image:'billyAlbum.jpg'
     },
     {
-        album: 'Traveller',
+        album_name: 'Traveller',
         song: 'Tennesse Whisky',
         artist_id: 15,
-        image:''
+        image:'chrisAlbum.jpg'
     },
     {
-        album: 'Songs for the Saints',
+        album_name: 'Songs for the Saints',
         song: 'Get Along',
         artist_id: 16,
-        image:''
+        image:'kennyAlbum.jpg'
     },
     {
-        album: 'Adobe Sessions',
+        album_name: 'Adobe Sessions',
         song: 'Loud and Heavy',
         artist_id: 17,
-        image:''
+        image:'codyAlbum.jpg'
     },
     {
-        album: 'Losing Sleep',
+        album_name: 'Losing Sleep',
         song: 'Hangin On',
         artist_id: 18,
-        image:''
+        image:'youngAlbum.jpg'
     },
     {
-        album: 'Telling All My Secrets',
+        album_name: 'Telling All My Secrets',
         song: 'Drunk Me',
         artist_id: 19,
-        image:''
+        image:'mitchelAlbum.jpg'
     },
     {
-        album: 'Mercury Lane',
+        album_name: 'Mercury Lane',
         song: 'Best Shot',
         artist_id: 20,
-        image:''
+        image:'jimmieAlbum.jpg'
     },
     {
-        album: 'Certified Lover Boy',
+        album_name: 'Certified Lover Boy',
         song: 'Knife Talk',
         artist_id: 21,
-        image:''
+        image:'drakeAlbum.png'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Sharing Locations',
         artist_id: 22,
-        image:''
+        image:'meekAlbum.jpeg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Lonely ',
         artist_id: 23,
-        image:''
+        image:'dababyAlbum2.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Too Easy',
         artist_id: 24,
-        image:''
+        image:'gunnaAlbum.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Your Heart',
         artist_id: 25,
-        image:''
+        image:'jcoleAlbum.png'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: '2055',
         artist_id: 26,
-        image:''
+        image:'sleepyAlbum.jpeg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Repeat it',
         artist_id: 27,
-        image:''
+        image:'teccaAlbum.jpg'
     },
     {
-        album: 'A Gangsta\'s Pain',
-        song: 'MoneyBagg Yo',
+        album_name: 'A Gangsta\'s Pain',
+        song: 'Wokesha',
         artist_id: 28,
-        image:''
+        image:'moneyAlbum.jpeg'
     },
     {
-        album: 'Donda',
+        album_name: 'Donda',
         song: 'Jail pt.2',
         artist_id: 29,
-        image:''
+        image:'kanyeAlbum.png'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Dreams Unfold',
         artist_id: 30,
-        image:''
+        image:'joynerAlbum.jpeg'
     },
     {
-        album: 'Cuatro Caminos',
+        album_name: 'Cuatro Caminos',
         song: 'Eres',
         artist_id: 31,
-        image:''
+        image:'cuatro.jpg'
     },
     {
-        album: 'Avalancha de Éxitos',
+        album_name: 'Avalancha de Éxitos',
         song: 'Como te extraño mi amor' ,
         artist_id: 31,
-        image:''
+        image:'ava.jpg'
     },
     {
-        album: 'Amor de mis Amores ',
+        album_name: 'Amor de mis Amores ',
         song: 'Mi cucu, Amor de mis Amores, El Viejo del Sombrerón',
         artist_id: 32,
-        image:''
+        image:'sonoraAlbum.jpg'
     },
     {
-        album: 'Bandido',
+        album_name: 'Bandido',
         song: 'Amanete Bandido',
         artist_id: 33,
-        image:''
+        image:'bandido.jpg'
     },
     {
-        album: 'Sereno',
+        album_name: 'Sereno',
         song: 'Morena Mia',
         artist_id: 33,
-        image:''
+        image:'serno.jpg'
     },
     {
-        album: 'El último adiós',
+        album_name: 'El último adiós',
         song: 'El último adiós',
         artist_id: 33,
-        image:''
+        image:'ultimo.jpg'
     },
     {
-        album: 'Vida',
+        album_name: 'Vida',
         song: 'Despacito',
         artist_id: 34,
-        image:''
+        image:'vida.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Con Calma',
         artist_id: 34,
-        image:''
+        image:'conCalma.jpg'
     },
     {
-        album: 'Single',
+        album_name: 'Single',
         song: 'Shaky Shaky',
         artist_id: 34,
-        image:''
+        image:'shaky.jpg'
     },
 ];
 
