@@ -1,19 +1,22 @@
 const router = require('express').Router();
 
-const userRoutes = require('./user-routes');
-const genreRoutes = require('./genre');
-const albumRoutes = require('./album');
-const artistRoutes = require('./artists');
-const favoriteRoutes = require('./favorites');
-const songRoutes = require('./song');
 
+
+
+const userRoutes = require('../api/user-routes');
+const genreRoutes = require('../api/genre');
+const albumRoutes = require('../api/album');
+const artistRoutes = require('../api/artists');
+const favoriteRoutes = require('../api/favorites');
+const songRoutes = require('../api/song');
 
 
 router.use('/users', userRoutes);
 router.use('/genre', genreRoutes);
 router.use('/album', albumRoutes);
-router.use('/artist', artistRoutes);
-router.use('/favorite', favoriteRoutes);
+
+router.use('/artists', artistRoutes);
+router.use('/favorites', favoriteRoutes);
 router.use('/song', songRoutes);
 
 

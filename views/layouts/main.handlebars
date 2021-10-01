@@ -34,7 +34,12 @@
         {{{body}}}
       </div>
     {{#if loggedIn}}
+
     <script src="./js/logout.js"></script>
+    <button id="logout" class="btn-no-style">Logout</button>
+    {{else}}
+    <a href="/js/login.js">Login</a>
+
     {{/if}}
       <form>
         <div class="form-group row justify-content-center mt-5 ml-5">
@@ -48,6 +53,9 @@
         </div>
       </form>
     </div>
-  </main> 
+  </main>
+  {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
 </body>
 </html>
