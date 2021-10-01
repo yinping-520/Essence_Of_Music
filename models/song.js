@@ -30,7 +30,7 @@ Song.init(
       }
   },
     lyrics: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT('long'),
         allowNull: false
     },
     youtube: {
