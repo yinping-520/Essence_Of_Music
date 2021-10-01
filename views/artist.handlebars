@@ -1,3 +1,19 @@
-{{#each artist.albums as |album|}}
-{{> artist-detail}}
+
+<section class="row m-auto py-2" style="max-width: 18rem;">
+     <div class="col card-deck">
+         <div class="card">
+             <a href="">
+             {{#each artist.albums as |album|}}
+             <div class="card-body"> 
+             <h5 class="card-title text-center">{{album.album}}</h5>
+             </div>
+             <img src="/assets/{{image}} " class="card-img-top" alt="{{image}}">
+             </a>
+             {{#each album.songs as |song|}}
+             <li>{{song.song}}</li>
+             {{/each}}
+         </div> 
+     </div> 
+ </section>
+
 {{/each}}
