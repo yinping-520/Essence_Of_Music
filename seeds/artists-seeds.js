@@ -104,72 +104,72 @@ const artistData = [
     {
         artist: 'Drake',
         genre_id: 3,
-        image:''
+        image:'drake.jpg'
     },
     {
         artist: 'Meek Mill',
         genre_id: 3,
-        image:''
+        image:'meek.jpg'
     },
     {
         artist: 'Dababy',
         genre_id: 3,
-        image:''
+        image:'dababy.jpg'
     },
     {
         artist: 'Gunna',
         genre_id: 3,
-        image:''
+        image:'gunna.jpeg'
     },
     {
         artist: 'J.Cole',
         genre_id: 3,
-        image:''
+        image:'jcole.jpg'
     },
     {
         artist: 'Sleepy Hallow',
         genre_id: 3,
-        image:''
+        image:'sleepy.jpg'
     },
     {
         artist: 'Lil tecca',
         genre_id: 3,
-        image:''
+        image:'tecca.jpg'
     },
     {
-        artist: 'Wokesha',
+        artist: 'MoneyBagg Yo',
         genre_id: 3,
-        image:''
+        image:'money.jpg'
     },
     {
         artist: 'Kanye West',
         genre_id: 3,
-        image:''
+        image:'kanye3.jpg'
     },
     {
         artist: 'Joyner Lucas',
         genre_id: 3,
-        image:''
+        image:'joyner.jpg'
     },
     {
         artist: 'Café Tacuba',
         genre_id: 4,
-        image:''
+        image:'Cafe.jpg'
     },
     {
         artist: 'La Sonora Dinamita',
         genre_id: 4,
-        image:''
+        image:'sonora.jpg'
     },
     {
         artist: 'Miguel Bosé',
         genre_id: 4,
-        image:''
+        image:'miguel1.jpg'
     },
     {
         artist: 'Daddy Yankee',
         genre_id: 4,
-        image:''
+        image:'DaddyYankee.jpg'
     },
 ];
 

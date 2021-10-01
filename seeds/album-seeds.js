@@ -126,115 +126,115 @@ const albumData = [
         album: 'Certified Lover Boy',
         song: 'Knife Talk',
         artist_id: 21,
-        image:''
+        image:'drakeAlbum.png'
     },
     {
         album: 'Single',
         song: 'Sharing Locations',
         artist_id: 22,
-        image:''
+        image:'meekAlbum.jpeg'
     },
     {
         album: 'Single',
         song: 'Lonely ',
         artist_id: 23,
-        image:''
+        image:'dababyAlbum2.jpg'
     },
     {
         album: 'Single',
         song: 'Too Easy',
         artist_id: 24,
-        image:''
+        image:'gunnaAlbum.jpg'
     },
     {
         album: 'Single',
         song: 'Your Heart',
         artist_id: 25,
-        image:''
+        image:'jcoleAlbum.png'
     },
     {
         album: 'Single',
         song: '2055',
         artist_id: 26,
-        image:''
+        image:'sleepyAlbum.jpeg'
     },
     {
         album: 'Single',
         song: 'Repeat it',
         artist_id: 27,
-        image:''
+        image:'teccaAlbum.jpg'
     },
     {
         album: 'A Gangsta\'s Pain',
-        song: 'MoneyBagg Yo',
+        song: 'Wokesha',
         artist_id: 28,
-        image:''
+        image:'moneyAlbum.jpeg'
     },
     {
         album: 'Donda',
         song: 'Jail pt.2',
         artist_id: 29,
-        image:''
+        image:'kanyeAlbum.png'
     },
     {
         album: 'Single',
         song: 'Dreams Unfold',
         artist_id: 30,
-        image:''
+        image:'joynerAlbum.jpeg'
     },
     {
         album: 'Cuatro Caminos',
         song: 'Eres',
         artist_id: 31,
-        image:''
+        image:'cuatro.jpg'
     },
     {
         album: 'Avalancha de Éxitos',
         song: 'Como te extraño mi amor' ,
         artist_id: 31,
-        image:''
+        image:'ava.jpg'
     },
     {
         album: 'Amor de mis Amores ',
         song: 'Mi cucu, Amor de mis Amores, El Viejo del Sombrerón',
         artist_id: 32,
-        image:''
+        image:'sonoraAlbum.jpg'
     },
     {
         album: 'Bandido',
         song: 'Amanete Bandido',
         artist_id: 33,
-        image:''
+        image:'bandido.jpg'
     },
     {
         album: 'Sereno',
         song: 'Morena Mia',
         artist_id: 33,
-        image:''
+        image:'serno.jpg'
     },
     {
         album: 'El último adiós',
         song: 'El último adiós',
         artist_id: 33,
-        image:''
+        image:'ultimo.jpg'
     },
     {
         album: 'Vida',
         song: 'Despacito',
         artist_id: 34,
-        image:''
+        image:'vida.jpg'
     },
     {
         album: 'Single',
         song: 'Con Calma',
         artist_id: 34,
-        image:''
+        image:'conCalma.jpg'
     },
     {
         album: 'Single',
         song: 'Shaky Shaky',
         artist_id: 34,
-        image:''
+        image:'shaky.jpg'
     },
 ];
 
