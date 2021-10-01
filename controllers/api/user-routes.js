@@ -3,8 +3,9 @@ const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
     try {
+        console.log(req.body);
         const userData = await User.create ({
-            username: req.body.username,
+            user_name: req.body.user_name,
             email: req.body.email,
             password: req.body.password,
         });
@@ -31,6 +32,7 @@ router.post('/login', async (req, res) => {
         }
 
         const validPassword = await userData.checkPassword(req.body.password);
+        
 
         if(!validPassword){
             res.status(400).json({ message: 'Incorrect email or password '});
@@ -49,7 +51,7 @@ router.post('/login', async (req, res) => {
 
 router.post('/logout', (req, res) => {
     if(req.session.loggedIn){
-        req.session.delete(() => {
+        req.session.destroy(() => {
             res.status(204).end();
         })
     } else{
