@@ -2,172 +2,172 @@ const { Artist } = require('../models');
 
 const artistData = [
     {
-        artist: 'Lil Nas X',
+        artist_name: 'Lil Nas X',
         genre_id: 1,
         image:'nas.jpg'
     },
     {
-        artist: 'Doja Cat',
+        artist_name: 'Doja Cat',
         genre_id: 1,
         image:'doja.jpg'
     },
     {
-        artist: 'Ed Sheeran',
+        artist_name: 'Ed Sheeran',
         genre_id: 1,
         image:'ed.jpg'
     },
     {
-        artist: 'Coldplay',
+        artist_name: 'Coldplay',
         genre_id: 1,
         image:'cold.jpg'
     },
     {
-        artist: 'Chloe',
+        artist_name: 'Chloe',
         genre_id: 1,
         image:'chloe.jpg'
     },
     {
-        artist: 'Billie Ellish',
+        artist_name: 'Billie Ellish',
         genre_id: 1,
         image:'billie.jpg'
     },
     {
-        artist: 'The Weeknd',
+        artist_name: 'The Weeknd',
         genre_id: 1,
         image:'weeknd1.jpg'
     },
     {
-        artist: 'Farruko',
+        artist_name: 'Farruko',
         genre_id: 1,
         image:'farruko.jpg'
     },
     {
-        artist: 'Dua Lipa',
+        artist_name: 'Dua Lipa',
         genre_id: 1,
         image:'lipa.jpg'
     },
     {
-        artist: 'Glass Animals',
+        artist_name: 'Glass Animals',
         genre_id: 1,
         image:'glass.jpeg'
     },
     {
-        artist: 'Luke Combs',
+        artist_name: 'Luke Combs',
         genre_id: 2,
         image:'luke.jpg'
     },
     {
-        artist: 'Morgan Evans',
+        artist_name: 'Morgan Evans',
         genre_id: 2,
         image:'morgan.jpg'
     },
     {
-        artist: 'Midland',
+        artist_name: 'Midland',
         genre_id: 2,
         image:'Midland.jpg'
     },
     {
-        artist: 'Billy Ray Cyrus',
+        artist_name: 'Billy Ray Cyrus',
         genre_id: 2,
         image:'billy.jpg'
     },
     {
-        artist: 'Chris Stapleton',
+        artist_name: 'Chris Stapleton',
         genre_id: 2,
         image:'chris.jpg'
     },
     {
-        artist: 'Kenny Chesney',
+        artist_name: 'Kenny Chesney',
         genre_id: 2,
         image:'kenny.png'
     },
     {
-        artist: 'Cody Jenkins',
+        artist_name: 'Cody Jenkins',
         genre_id: 2,
         image:'cody.jpg'
     },
     {
-        artist: 'Chris Young',
+        artist_name: 'Chris Young',
         genre_id: 2,
         image:'young.jpg'
     },
     {
-        artist: 'Mitchel Tempanny',
+        artist_name: 'Mitchel Tempanny',
         genre_id: 2,
         image:'mitchel.jpeg'
     },
     {
-        artist: 'Jimmie Allen',
+        artist_name: 'Jimmie Allen',
         genre_id: 2,
         image:'jimmie.jpg'
     },
     {
-        artist: 'Drake',
+        artist_name: 'Drake',
         genre_id: 3,
         image:'drake.jpg'
     },
     {
-        artist: 'Meek Mill',
+        artist_name: 'Meek Mill',
         genre_id: 3,
         image:'meek.jpg'
     },
     {
-        artist: 'Dababy',
+        artist_name: 'Dababy',
         genre_id: 3,
         image:'dababy.jpg'
     },
     {
-        artist: 'Gunna',
+        artist_name: 'Gunna',
         genre_id: 3,
         image:'gunna.jpeg'
     },
     {
-        artist: 'J.Cole',
+        artist_name: 'J.Cole',
         genre_id: 3,
         image:'jcole.jpg'
     },
     {
-        artist: 'Sleepy Hallow',
+        artist_name: 'Sleepy Hallow',
         genre_id: 3,
         image:'sleepy.jpg'
     },
     {
-        artist: 'Lil tecca',
+        artist_name: 'Lil tecca',
         genre_id: 3,
         image:'tecca.jpg'
     },
     {
-        artist: 'MoneyBagg Yo',
+        artist_name: 'MoneyBagg Yo',
         genre_id: 3,
         image:'money.jpg'
     },
     {
-        artist: 'Kanye West',
+        artist_name: 'Kanye West',
         genre_id: 3,
         image:'kanye3.jpg'
     },
     {
-        artist: 'Joyner Lucas',
+        artist_name: 'Joyner Lucas',
         genre_id: 3,
         image:'joyner.jpg'
     },
     {
-        artist: 'Café Tacuba',
+        artist_name: 'Café Tacuba',
         genre_id: 4,
         image:'Cafe.jpg'
     },
     {
-        artist: 'La Sonora Dinamita',
+        artist_name: 'La Sonora Dinamita',
         genre_id: 4,
         image:'sonora.jpg'
     },
     {
-        artist: 'Miguel Bosé',
+        artist_name: 'Miguel Bosé',
         genre_id: 4,
         image:'miguel1.jpg'
     },
     {
-        artist: 'Daddy Yankee',
+        artist_name: 'Daddy Yankee',
         genre_id: 4,
         image:'DaddyYankee.jpg'
     },

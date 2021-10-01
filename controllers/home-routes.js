@@ -8,7 +8,7 @@ router.get("/genre", async (req, res) => {
     const genreData = await Genre.findAll();
     const genres = genreData.map((genre) => genre.get({ plain: true }));
 
-    res.render("landingpage", { genres });
+    res.render('landingpage', { genres, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
