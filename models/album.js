@@ -11,7 +11,7 @@ Album.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    album: {
+    album_name: {
       type: DataTypes.STRING,
       allowNull: false
   },
