@@ -6,121 +6,121 @@ const albumData = [
         album: 'Single',
         song: 'Industry Baby',
         artist_id: 1,
-        image:''
+        image:'industry.jpg'
     },
     {
         album: 'Planet Her',
         song: 'Woman',
         artist_id: 2,
-        image:''
+        image:'dojaPlanet.jpeg'
     },
     {
         album: 'Single',
         song: 'Shivers',
         artist_id: 3,
-        image:''
+        image:'shivers.jpg'
     },
     {
         album: 'Single',
         song: 'My Universe',
         artist_id: 4,
-        image:''
+        image:'coldAlbum1.jpg'
     },
     {
         album: 'Single',
         song: 'Have Mercy',
         artist_id: 5,
-        image:''
+        image:'chloealbum.png'
     },
     {
         album: 'Happier Than Ever',
         song: 'Happier Than Ever',
         artist_id: 6,
-        image:''
+        image:'billieAlbum.jpeg'
     },
     {
         album: 'Single',
         song: 'Take My Breath',
         artist_id: 7,
-        image:''
+        image:'weekAlbum.jpg'
     },
     {
         album: 'Single',
         song: 'Peppas',
         artist_id: 8,
-        image:''
+        image:'farrukoSingle.jpg'
     },
     {
         album: 'Future Nostalgia',
         song: 'Love again',
         artist_id: 9,
-        image:''
+        image:'lipaAlbum.jpg'
     },
     {
         album: 'Dreamland',
         song: 'Heat Wave',
         artist_id: 10,
-        image:''
+        image:'glassAlbum.jpg'
     },
     {
         album: 'This One\'s for you',
         song: 'Hurricane',
         artist_id: 11,
-        image:''
+        image:'lukeAlbum.jpg'
     },
     {
         album: 'Things That We Drink To',
         song: 'Kiss Somebody',
         artist_id: 12,
-        image:''
+        image:'morganAlbum.jpg'
     },
     {
         album: 'On The Rocks',
         song: 'Burn Out',
         artist_id: 13,
-        image:''
+        image:'midlandAlbum.jpg'
     },
     {
         album: 'Some Gave All',
         song: 'Achy Breaky Hearts',
         artist_id: 14,
-        image:''
+        image:'billyAlbum.jpg'
     },
     {
         album: 'Traveller',
         song: 'Tennesse Whisky',
         artist_id: 15,
-        image:''
+        image:'chrisAlbum.jpg'
     },
     {
         album: 'Songs for the Saints',
         song: 'Get Along',
         artist_id: 16,
-        image:''
+        image:'kennyAlbum.jpg'
     },
     {
         album: 'Adobe Sessions',
         song: 'Loud and Heavy',
         artist_id: 17,
-        image:''
+        image:'codyAlbum.jpg'
     },
     {
         album: 'Losing Sleep',
         song: 'Hangin On',
         artist_id: 18,
-        image:''
+        image:'youngAlbum.jpg'
     },
     {
         album: 'Telling All My Secrets',
         song: 'Drunk Me',
         artist_id: 19,
-        image:''
+        image:'mitchelAlbum.jpg'
     },
     {
         album: 'Mercury Lane',
         song: 'Best Shot',
         artist_id: 20,
-        image:''
+        image:'jimmieAlbum.jpg'
     },
     {
         album: 'Certified Lover Boy',

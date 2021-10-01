@@ -4,102 +4,102 @@ const artistData = [
     {
         artist: 'Lil Nas X',
         genre_id: 1,
-        image:''
+        image:'nas.jpg'
     },
     {
         artist: 'Doja Cat',
         genre_id: 1,
-        image:''
+        image:'doja.jpg'
     },
     {
         artist: 'Ed Sheeran',
         genre_id: 1,
-        image:''
+        image:'ed'
     },
     {
         artist: 'Coldplay',
         genre_id: 1,
-        image:''
+        image:'cold.jpg'
     },
     {
         artist: 'Chloe',
         genre_id: 1,
-        image:''
+        image:'chloe.jpg'
     },
     {
         artist: 'Billie Ellish',
         genre_id: 1,
-        image:''
+        image:'billie.jpg'
     },
     {
         artist: 'The Weeknd',
         genre_id: 1,
-        image:''
+        image:'weeknd1.jpg'
     },
     {
         artist: 'Farruko',
         genre_id: 1,
-        image:''
+        image:'farruko.jpg'
     },
     {
         artist: 'Dua Lipa',
         genre_id: 1,
-        image:''
+        image:'lipa.jpg'
     },
     {
         artist: 'Glass Animals',
         genre_id: 1,
-        image:''
+        image:'glass.jpeg'
     },
     {
         artist: 'Luke Combs',
         genre_id: 2,
-        image:''
+        image:'luke.jpg'
     },
     {
         artist: 'Morgan Evans',
         genre_id: 2,
-        image:''
+        image:'morgan.jpg'
     },
     {
         artist: 'Midland',
         genre_id: 2,
-        image:''
+        image:'Midland.jpg'
     },
     {
         artist: 'Billy Ray Cyrus',
         genre_id: 2,
-        image:''
+        image:'billy.jpg'
     },
     {
         artist: 'Chris Stapleton',
         genre_id: 2,
-        image:''
+        image:'chris.jpg'
     },
     {
         artist: 'Kenny Chesney',
         genre_id: 2,
-        image:''
+        image:'kenny.png'
     },
     {
         artist: 'Cody Jenkins',
         genre_id: 2,
-        image:''
+        image:'cody.jpg'
     },
     {
         artist: 'Chris Young',
         genre_id: 2,
-        image:''
+        image:'young.jpg'
     },
     {
         artist: 'Mitchel Tempanny',
         genre_id: 2,
-        image:''
+        image:'mitchel.jpeg'
     },
     {
-        artist: 'Jmmie Allen',
+        artist: 'Jimmie Allen',
         genre_id: 2,
-        image:''
+        image:'jimmie.jpg'
     },
     {
         artist: 'Drake',
