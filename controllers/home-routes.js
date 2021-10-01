@@ -1,34 +1,12 @@
 const router = require("express").Router();
-const { Genre, Artist, Album, Song } = require("../models");
+const { Genre, Artist, Song, Album } = require("../models");
 
 router.get("/", async (req, res) => {
   try {
-    const genreData = await Genre.findAll({
-      include: [
-        {
-          model: Artist,
-          include: [
-            {
-              model: Album,
-              include: [
-                {
-                  model: Song,
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    });
+    const genreData = await Genre.findAll();
+    const genres = genreData.map((genre) => genre.get({ plain: true }));
 
-    const genres = genreData.map((genres) => genres.get({ plain: true }));
-    const songs = genres.map(genre => genre)
-    // res.render('homepage', {
-    //     genres,
-    //     loggedIn: req.session.loggedIn,
-    // });
-    console.log(genres);
-    res.json(genres);
+    res.render('landingpage', {genres});
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
@@ -36,41 +14,55 @@ router.get("/", async (req, res) => {
 });
 
 router.get("/genre/:id", async (req, res) => {
-  if (!req.session.loggedIn) {
-    res.redirect("/login");
-  } else {
+  // if (!req.session.loggedIn) {
+  //   res.redirect("/login");} else {
     try {
       const genreData = await Genre.findByPk(req.params.id, {
-        include: [
-          {
-            model: Artist,
-            attributes: ["id", "song", "artist", "genre"],
-          },
-        ],
+        include: [{model: Artist}],
       });
       const genres = genreData.get({ plain: true });
-      res.render("genres", { genres, loggedIn: req.session.loggedIn });
+      console.log(genres)
+      //res.json(genres)
+      res.render("genre", { genres });
     } catch (err) {
       console.log(err);
       res.status(500).json(err);
     }
-  }
-});
+  });
 
-router.get("/artist/:id", async (res, req) => {
-  if (!req.session.loggedIn) {
-    res.redirect("/login");
-  } else {
+//search by artist's name?????????
+router.get("/artist/:artist", async (req, res) => {
+    // if (!req.session.loggedIn) {
+    //   res.redirect("/login");
+    // } else {}) loggedIn: req.session.loggedIn ;
+      try {
+        const artistData = await Artist.findByPk(req.params.artist,{
+          include: [{model: Album}],
+        });
+        if(!artistData){res.json({message: 'no artist found by this name'})}
+        const artist = artistData.get({ plain: true });
+        console.log(artist)
+        //res.json(artist)
+        res.render("artist", { artist });
+      } catch (err) {res.status(500).json(err)}
+    });
+
+router.get("/artist/:id", async (req, res) => {
+  // if (!req.session.loggedIn) {
+  //   res.redirect("/login");
+  // } else {}) loggedIn: req.session.loggedIn ;
     try {
-      const artistData = await Artist.findByPk(req.params.id);
+      const artistData = await Artist.findByPk(req.params.id,{
+        include: [{model: Album}],
+      });
+      if(!artistData){res.json({message: 'no artist found by this id'})}
       const artist = artistData.get({ plain: true });
-      res.render("artist", { artist, loggedIn: req.session.loggedIn });
-    } catch (err) {
-      console.log(err);
-      res.status(500).json(err);
-    }
-  }
-});
+      console.log(artist)
+      //res.json(artist)
+      res.render("artist", { artist });
+    } catch (err) {res.status(500).json(err)}
+  });
+
 
 router.get("/login", (req, res) => {
   if (req.session.loggedIn) {
