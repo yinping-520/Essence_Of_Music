@@ -1,3 +1,8 @@
-{{#each genres as |genre|}}
-{{> landing-detail}}
-{{/each}}
+<div class="row">
+    <h2 class='p-3 text-white bg-dark col-4'>What's your Vibe</h2>
+    <div class="gallery col-8 row">  
+        {{#each genres as |genre|}}
+        {{> landing-detail}}
+        {{/each}}
+    </div>
+</div>
