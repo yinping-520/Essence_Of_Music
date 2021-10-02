@@ -1,2 +1,14 @@
- 
- 
+ <section class="row m-auto py-2">
+     <div class="col" >
+         <div class="card">
+             <div class="card-body"> 
+             <h5 class="card-title text-center">{{album_name}}</h5>
+             </div>
+             <img src="/assets/artCovers/{{image}} " class="card-img-top" alt="{{image}}">
+             {{#each songs as |song|}}
+             <a href="{{youtube}}"><li>{{song_name}}</li></a>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/HCq1OcAEAm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             {{/each}} 
+         </div> 
+     </div> 
+ </section>

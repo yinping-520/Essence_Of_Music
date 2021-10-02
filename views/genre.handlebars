@@ -1,6 +1,11 @@
-
-<h5 class=>{{genres.genre_name}}</h5>
-{{#each genres.artists as |artist|}}
-{{> genre-detail}}
-{{/each}}
-
+<div class="row">
+    <div class='p-3 text-white bg-dark col-4'>
+        <h2>What's your Vibe</h2>
+        <h4>{{genres.genre_name}}</h4>
+    </div>
+    <div class="gallery col-8 row">  
+    {{#each genres.artists as |artist|}}
+    {{> genre-detail}}
+    {{/each}}
+    </div>
+</div>
