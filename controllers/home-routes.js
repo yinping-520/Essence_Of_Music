@@ -30,35 +30,7 @@ router.get("/genre/:id",withAuth, async (req, res) => {
   }
 });
 
-//search by artist's name?????????
-// router.get("/artist/name/:artist", async (req, res) => {
-//   // if (!req.session.loggedIn) {
-//   //   res.redirect("/login");
-//   // } else {}) loggedIn: req.session.loggedIn ;
-//   try {
-//     const artistData = await Artist.findOne(
-//       { where: { artist: req.params.artist } },
-
-//       {
-//         include: [{ model: Album, include: [{ model: Song }] }],
-//       }
-//     );
-//     if (!artistData) {
-//       res.json({ message: "no artist found by this id" });
-//     }
-//     const artist = artistData.get({ plain: true });
-//     console.log(artist);
-//     //res.json(artist)
-//     res.render("artist", { artist });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
-
-router.get("/artist/:id", async (req, res) => {
-  // if (!req.session.loggedIn) {
-  //   res.redirect("/login");
-  // } else {}) loggedIn: req.session.loggedIn ;
+router.get("/artist/:id",withAuth, async (req, res) => {
   try {
     const artistData = await Artist.findByPk(req.params.id, {
       include: [{ model: Album, include: [{ model: Song }] }],
@@ -76,11 +48,10 @@ router.get("/artist/:id", async (req, res) => {
   }
 });
 
-router.get("/playlist", async (req, res) => {
+router.get("/playlist",withAuth, async (req, res) => {
   try {
     const playlistData = await Favorite.findAll();
-    const playlists = playlistData.map((playlist) => playlist.get({ plain: true }));
-    //res.json(playlists)
+    const playlists = playlistData.map((playlist) =>  playlist.get({ plain: true }));
     res.render('favorites', { playlists, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);

@@ -1,6 +1,5 @@
 <section class="row m-auto py-2 album">
     <div class="col">
-
         <div class="card">
             <h5 class="card-title text-center">{{album_name}}</h5>
               <img src="/assets/artCovers/{{image}} " class="card-img-top img-fluid rounded mx-auto d-block" alt="{{image}}" style="width: 500px; height: 500px"> 
@@ -9,7 +8,10 @@
             <li><a href="{{youtube}}"></a>{{song_name}}</a></li>
             <span>
                 <button class="btn" type="button" style='font-size:2rem; display:inline-block'
-                    data-content="{{youtube}}" data-id='{{id}}'>♡</button>
+                    data-content="{{youtube}}" 
+                    data-id='{{id}}'
+                    data-name='{{song_name}}'
+                    data-audio='{{audio}}'>♡</button>
             </span>
             {{/each}}
             {{#each songs as |song|}}
