@@ -26,7 +26,11 @@ Favorite.init(
             key: 'id',
             unique: false
         }
-    }
+    },
+    youtube: {
+      type: DataTypes.STRING,
+      allowNull: true
+  }
   },
   {
     sequelize,
