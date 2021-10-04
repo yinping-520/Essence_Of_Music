@@ -1,12 +1,12 @@
 <div class="row">
     <div class='p-3 text-white bg-dark col-4'>
-        <h2>What's your Vibe</h2>
+        <h2>Your Playlist</h2>
+    </div>
+    <div class="gallery col-8 row"> 
+        {{#each playlists as |playlist|}}
+        {{>fav-detail}}
+        {{/each}}
         
-    </div>
-    {{#each playlists}}
-    <div class="gallery col-8 row">  
-        <a href="{{youtube}}">{{youtube}}</a>
-   {{/each}}
-    </div>
-</div>
+
+
 

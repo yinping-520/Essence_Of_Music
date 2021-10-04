@@ -1,0 +1,24 @@
+<section class="row m-auto py-2" >
+    <div class="col">
+        <div class="card">
+            {{#if song_name}}
+            <h3 class='text-center'>{{song_name}}
+            <span>
+                <button class="btn" type="button" style='font-size:2rem; display:inline-block'
+                    data-id='{{artist_id}}' id='song'>❤</button>
+            </span></h3>
+            <div class="col">  
+                <iframe width="560" height="315" 
+                src="{{youtube}}"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplayclipboard-writeencrypted-media; gyroscopepicture-in-picture"
+                allowfullscreen>
+                </iframe>
+                
+            </div>
+            {{/if}}
+        </div>
+    </div>
+    <script src='/js/deletesong.js'></script>
+</section>

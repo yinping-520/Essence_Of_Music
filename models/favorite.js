@@ -7,30 +7,53 @@ Favorite.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
     user_id: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'user',
-            key: 'id',
-            unique: false
-        }
+      type: DataTypes.INTEGER,
+      references: {
+        model: "user",
+        key: "id",
+        unique: false,
+      },
     },
     artist_id: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'artist',
-            key: 'id',
-            unique: false
-        }
+      type: DataTypes.INTEGER,
+      references: {
+        model: "artist",
+        key: "id",
+        unique: true,
+      },
+    },
+    song_name: {
+      type: DataTypes.STRING,
+      unique: true,
+    },
+    album_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "album",
+        key: "id",
+        unique: true,
+      },
+    },
+    genre_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "genre",
+        key: "id",
+      },
+    },
+    lyrics: {
+      type: DataTypes.TEXT("long"),
     },
     youtube: {
       type: DataTypes.STRING,
-      allowNull: true
-  }
+    },
+    audio: {
+      type: DataTypes.STRING,
+    },
   },
   {
     sequelize,
