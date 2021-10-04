@@ -1,16 +1,28 @@
- <section class="row m-auto py-2">
-     <div class="col" >
-         <div class="card">
-            <h5 class="card-title text-center">{{album_name}} 
-             <span class="d-inline-block">
-                <button class="btn" id='unsaved'type="button" style='font-size:2rem; display:none' data-content='♡'>♡</button>
-                <button class="btn" id='saved' type="button" style='font-size:2rem; display:inline-block' data-content='❤'>❤</button>
-            </span></h5>
-             <img src="/assets/artCovers/{{image}} " class="card-img-top"alt="{{image}}">
-             {{#each songs as |song|}}
-             <a href="{{youtube}}"><li>{{song_name}}</li></a>
-             {{/each}} 
-         </div> 
-     </div> 
- </section>
- <script src='/js/playlist.js'></script>
+<section class="row m-auto py-2">
+    <div class="col">
+        <div class="card">
+            <h5 class="card-title text-center">{{album_name}}
+                <span class="d-inline-block">
+                    <button class="btn" id='unsaved' type="button" style='font-size:2rem; display:none'
+                        data-content='♡'>♡</button>
+                    <button class="btn" id='saved' type="button" style='font-size:2rem; display:inline-block'
+                        data-content='❤'>❤</button>
+                </span>
+            </h5>
+            <img src="/assets/artCovers/{{image}} " class="card-img-top" alt="{{image}}">
+            {{#each songs as |song|}}
+            <a href="{{youtube}}">
+                <li>{{song_name}}</li>
+            </a>
+            {{/each}}
+            {{#each songs as |song|}}
+            <audio controls>
+                <source src="/assets/audio/{{audio}}" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            {{/each}}
+
+        </div>
+    </div>
+</section>
+<script src='/js/playlist.js'></script>
