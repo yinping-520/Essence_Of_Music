@@ -213,10 +213,10 @@ const albumData = [
         image:'serno.jpg'
     },
     {
-        album_name: 'El último adiós',
-        song: 'El último adiós',
+        album_name: 'Linda',
+        song: 'Amiga',
         artist_id: 33,
-        image:'ultimo.jpg'
+        image:'bose_album3'
     },
     {
         album_name: 'Vida',
