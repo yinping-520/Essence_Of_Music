@@ -5,7 +5,7 @@ const songData = [
     {
         song_name:'Industry Baby',
         lyrics:'Baby back, ayy Couple racks, ayy Couple Grammys on him Couple plaques, ayy That\'s a fact, ayy Throw it back, ayy Throw it back, ayy',
-        youtube:'https://www.youtube.com/watch?v=HCq1OcAEAm0',
+        youtube:'https://www.youtube.com/embed/HCq1OcAEAm0',
         album_id: 1,
         genre_id: 1,
         audio: 'nas-ind.mp3'
@@ -13,7 +13,7 @@ const songData = [
     {
         song_name:'Woman',
         lyrics:'Hey, woman Let me be your woman, woman, woman, woman I can be your woman, woman, woman, woman let me be your woman, woman, woman, woman I can be your woman, woman, woman, woman',
-        youtube:'https://www.youtube.com/watch?v=2V_uAAAH-_Q',
+        youtube:'https://www.youtube.com/embed/2V_uAAAH-_Q',
         album_id: 2,
         genre_id: 1,
         audio: ''
@@ -23,7 +23,7 @@ const songData = [
     {
         song_name:'Shivers',
         lyrics:'Ooh, I love it when you do it like that And when you\'re close up, give me the shivers Oh baby, you wanna dance \'til the sunlight cracks And when they say the party\'s over, then we\'ll bring it right back And we\'ll say, ooh, I love it when you do it like that And when you\'re close up, give me the shivers Oh baby, you wanna dance \'til the sunlight cracks And when they say the party\'s over, then we\'ll bring it right back',
-        youtube:'https://www.youtube.com/watch?v=Il0S8BoucSA',
+        youtube:'https://www.youtube.com/embed/Il0S8BoucSA',
         album_id: 3,
         genre_id: 1,
         audio: ''

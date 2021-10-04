@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Genre, Artist, Song, Album } = require("../models");
+const { Genre, Artist, Song, Album, Favorite } = require("../models");
 
 const withAuth = require("../utils/auth");
 
@@ -16,8 +16,6 @@ router.get("/", withAuth, async (req, res) => {
 });
 
 router.get("/genre/:id",withAuth, async (req, res) => {
-  // if (!req.session.loggedIn) {
-  //   res.redirect("/login");} else {  }
   try {
     const genreData = await Genre.findByPk(req.params.id, {
       include: [{ model: Artist }],
@@ -74,6 +72,18 @@ router.get("/artist/:id", async (req, res) => {
     //res.json(artist)
     res.render("artist", { artist, songs, loggedIn: req.session.loggedIn});
   } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get("/playlist", async (req, res) => {
+  try {
+    const playlistData = await Favorite.findAll();
+    const playlists = playlistData.map((playlist) => playlist.get({ plain: true }));
+    //res.json(playlists)
+    res.render('favorites', { playlists, loggedIn: req.session.loggedIn });
+  } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
