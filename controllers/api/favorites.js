@@ -1,5 +1,7 @@
-
 const router = require('express').Router();
+const {favorite} = require('../../models/favorite')
+
+
 
 
 

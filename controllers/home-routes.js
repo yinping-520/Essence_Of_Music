@@ -70,8 +70,7 @@ router.get("/artist/:id", async (req, res) => {
     }
     const artist = artistData.get({ plain: true });
     const songs = artist.albums.map(album => album.songs)
-    console.log(songs);
-
+    //console.log(songs);
     //res.json(artist)
     res.render("artist", { artist, songs, loggedIn: req.session.loggedIn});
   } catch (err) {
