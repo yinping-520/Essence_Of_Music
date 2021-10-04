@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Essence of Music</title>
+  <title>Essence of Music &#127926;</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -13,24 +13,24 @@
 </head>
 <body>
 
-  <div class="jumbotron jumbotron-fluid bg-warning">
+  <div class="jumbotron jumbotron-fluid bg-warning bg-image">
       <div class="container-fluid">
-        <h1 class="display-4 text-center" style="font-family: 'Italianno', cursive; font-size: 150px; font-weight:800">Essence Of Music</h1>
+        <h1 class="display-4 text-center" style="font-family: 'Italianno', cursive; font-size: 150px; font-weight:800">Essence Of Music 🎧</h1>
 
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="/" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            <a class="nav-link text-warning bg-dark" id="pills-home-tab" data-toggle="pill" href="/" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
           </li>
           <li class="nav-item" role="presentation">
-            <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="/playlist" role="tab" aria-controls="pills-home" aria-selected="true">My playlist</a>
+            <a class="nav-link text-warning bg-dark" id="pills-home-tab" data-toggle="pill" href="/playlist" role="tab" aria-controls="pills-home" aria-selected="true">My playlist</a>
           </li>
           {{#if loggedIn}}
           <li class="nav-item" id="logout" role="presentation">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="" role="tab" aria-controls="pills-profile" aria-selected="false">Logout</a>
+            <a class="nav-link text-secondary bg-dark" id="pills-profile-tab" data-toggle="pill" href="" role="tab" aria-controls="pills-profile" aria-selected="false">Logout</a>
           </li>
           {{else}}
           <li class="nav-item" role="presentation">
-            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="/login" role="tab" aria-controls="pills-contact" aria-selected="false">Login</a>
+            <a class="nav-link text-warning bg-dark" id="pills-contact-tab" data-toggle="pill" href="/login" role="tab" aria-controls="pills-contact" aria-selected="false">Login</a>
           </li>
           {{/if}}
         </ul>
@@ -40,22 +40,9 @@
     <div class="container-fluid">
       
           {{{body}}}
-   
-      {{!-- <form id='form'>
-        <div class="form-group row justify-content-center mt-5 ml-5">
-          <label for="colFormLabelLg" class="col-sm-10 col-md-3 col-form-label col-form-label-lg ">Search By Artist</label>
-          <div class="col-sm-10 col-md-5">
-            <input type="text" class=" form-control form-control-lg" id="artist" placeholder="Artist's name">
-          </div>
-          <div class="col col-sm-6 col-md-4 my-1">
-            <button type="submit" id='submission' class="btn btn-primary ">Submit</button>
-          </div>
-        </div>
-
-      </form> --}}
     </div>
   </main>
-  {{!-- <script src="/js/search-artist.js"></script> --}}
+
   {{#if loggedIn}}
   <script src="/js/logout.js"></script>
   {{else}}
