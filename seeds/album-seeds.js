@@ -216,7 +216,7 @@ const albumData = [
         album_name: 'Linda',
         song: 'Amiga',
         artist_id: 33,
-        image:'bose_album3'
+        image:'bose_album3.PNG'
     },
     {
         album_name: 'Vida',
