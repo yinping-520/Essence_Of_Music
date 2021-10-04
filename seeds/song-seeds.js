@@ -8,7 +8,7 @@ const songData = [
         youtube:'https://www.youtube.com/watch?v=HCq1OcAEAm0',
         album_id: 1,
         genre_id: 1,
-        audio: ''
+        audio: 'nas-ind.mp3'
     },
     {
         song_name:'Woman',
