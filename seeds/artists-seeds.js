@@ -38,7 +38,7 @@ const artistData = [
     },
     {
         artist_name: 'Farruko',
-        genre_id: 1,
+        genre_id: 4,
         image:'farruko.jpg'
     },
     {
@@ -82,7 +82,7 @@ const artistData = [
         image:'kenny.png'
     },
     {
-        artist_name: 'Cody Jenkins',
+        artist_name: 'Cody Jinks',
         genre_id: 2,
         image:'cody.jpg'
     },
@@ -92,7 +92,7 @@ const artistData = [
         image:'young.jpg'
     },
     {
-        artist_name: 'Mitchel Tempanny',
+        artist_name: 'Mitchell Tenpenny',
         genre_id: 2,
         image:'mitchel.jpeg'
     },

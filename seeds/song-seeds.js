@@ -16,9 +16,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/2V_uAAAH-_Q',
         album_id: 2,
         genre_id: 1,
-        audio: ''
-        
-
+        audio: 'woman.mp3'
     },
     {
         song_name:'Shivers',
@@ -26,7 +24,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/Il0S8BoucSA',
         album_id: 3,
         genre_id: 1,
-        audio: ''
+        audio: 'shivers.mp3'
     },
     {
         song_name:'My Universe',
@@ -34,7 +32,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/3YqPKLZF_WU',
         album_id: 4,
         genre_id: 1,
-        audio: ''
+        audio: 'universe.mp3'
     },
     {
         song_name:'Have Mercy',
@@ -42,7 +40,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/FfesqRkdSEk',
         album_id: 5,
         genre_id: 1,
-        audio: ''
+        audio: 'have_mercy.mp3'
     },
     {
         song_name:'Happier Than Ever',
@@ -50,7 +48,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/5GJWxDKyk3A',
         album_id: 6,
         genre_id: 1,
-        audio: ''
+        audio: 'happier.mp3'
     },
     {
         song_name:'Take My Breath Away',
@@ -60,12 +58,12 @@ const songData = [
         audio:'weeknd-take.mp3'
     },
     {
-        song_name:'Peppas',
+        song_name:'Pepas',
         lyrics:'Pepa y agua pa\' la seca To\' el mundo en pastilla\' en la discoteca Pepa y agua pa\' la seca To\' el mundo en pastilla\' en la discoteca',
         youtube:'https://www.youtube.com/embed/y8trd3gjJt0',
         album_id: 8,
-        genre_id: 1,
-        audio: ''
+        genre_id: 4,
+        audio: 'pepas.mp3'
     },
     {
         song_name:'Love again',
@@ -73,7 +71,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/BC19kwABFwc',
         album_id: 9,
         genre_id: 1,
-        audio: ''
+        audio: 'love_again.mp3'
     },
     {
         song_name:'Heat Wave',
@@ -81,7 +79,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/mRD0-GxqHVo',
         album_id: 10,
         genre_id: 1,
-        audio: ''
+        audio: 'heat_wave.mp3'
     },
     {
         song_name:'Hurricane',
@@ -89,7 +87,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/bPjZmQAvk_8',
         album_id: 11,
         genre_id: 2,
-        audio: ''
+        audio: 'hurricane.mp3'
     },
     {
         song_name:'Kiss Somebody',
@@ -97,7 +95,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/GiAINTvAfrw',
         album_id: 12,
         genre_id: 2,
-        audio: ''
+        audio: 'kiss_somebody.mp3'
     },
     {
         song_name:'Burn Out',
@@ -105,7 +103,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/YBCrkFB8nvc',
         album_id: 13,
         genre_id: 2,
-        audio: ''
+        audio: 'burn_out.mp3'
     },
     {
         song_name:'Achy Breaky Hearts',
@@ -113,7 +111,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/byQIPdHMpjc',
         album_id: 14,
         genre_id: 2,
-        audio: ''
+        audio: 'achy_breaky.mp3'
     },
     {
         song_name:'Tennesse Whisky',
@@ -121,7 +119,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/4zAThXFOy2c',
         album_id: 15,
         genre_id: 2,
-        audio: ''
+        audio: 'tennesse.mp3'
     },
     {
         song_name:'Get Along',
@@ -129,7 +127,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/-LI8X-GhFA8',
         album_id: 16,
         genre_id: 2,
-        audio: ''
+        audio: 'get_along.mp3'
     },
     {
         song_name:'Loud and Heavy',
@@ -137,7 +135,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/8DkIPTy3KaA',
         album_id: 17,
         genre_id: 2,
-        audio: ''
+        audio: 'loud_and_heavy.mp3'
     },
     {
         song_name:'Hangin On',
@@ -145,7 +143,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/CwKp6Xhy3_4',
         album_id: 18,
         genre_id: 2,
-        audio: ''
+        audio: 'hangin_on.mp3'
     },
     {
         song_name:'Drunk Me',
@@ -153,7 +151,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/BiA-7xHM8zc',
         album_id: 19,
         genre_id: 2,
-        audio: ''
+        audio: 'drunk_me.mp3'
     },
     {
         song_name:'Best Shot',
@@ -161,7 +159,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/25ys0vc4tTI',
         album_id: 20,
         genre_id: 2,
-        audio: ''
+        audio: 'best_shot.mp3'
     },
     {
         song_name:'Knife Talk',
@@ -169,7 +167,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/XPmu8MS_VjE',
         album_id: 21,
         genre_id: 3,
-        audio: ''
+        audio: 'knife_talk.mp3'
     },
     {
         song_name:'Sharing Locations',
@@ -177,7 +175,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/XCyIcifbOWE',
         album_id: 22,
         genre_id: 3,
-        audio: ''
+        audio: 'sharing_locations.mp3'
     },
     {
         song_name:'Lonely',
@@ -185,7 +183,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/pqydBaa1QR8',
         album_id: 23,
         genre_id: 3,
-        audio: ''
+        audio: 'lonely.mp3'
     },
     {
         song_name:'Too Easy',
@@ -193,7 +191,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/IUgMyenK3l8',
         album_id: 24,
         genre_id: 3,
-        audio: ''
+        audio: 'too_easy.mp3'
     },
     {
         song_name:'Your Heart',
@@ -201,7 +199,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/nD-Zu6aayS0',
         album_id: 25,
         genre_id: 3,
-        audio: ''
+        audio: 'your_Heart.mp3'
     },
     {
         song_name:'2055',
@@ -209,7 +207,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/y1xZ_kAhjMc',
         album_id: 26,
         genre_id: 3,
-        audio: ''
+        audio: '2055.mp3'
     },
     {
         song_name:'Repeat it',
@@ -217,15 +215,15 @@ const songData = [
         youtube:'https://www.youtube.com/embed/5g4M_jwPHjg',
         album_id: 27,
         genre_id: 3,
-        audio: ''
+        audio: 'repeat_it.mp3'
     },
     {
-        song_name:'Wokesha',
+        song_name:'Wockesha',
         lyrics:'I\'m seein\' her lookin\' like Keisha, like \"Do you love me, do you love me not?\" Damn, you hit the spot Taste like candy (candy), sweet like fruit (ooh) Wet like water, can I love on you? Withdrawals, I\'m feelin\' different, every day I need a dose Every now and thеn I\'m missin\', I got my times when I go ghost But she minе (hmm, hmm, hmm, hmm), I\'m stampin\' her Priority status, so them other b****** mad at her (too mad, ha)',
         youtube:'https://www.youtube.com/embed/6bN45f9NjlA',
         album_id: 28,
         genre_id: 3,
-        audio: ''
+        audio: 'wockesha.mp3'
     },
     {
         song_name:'Jail pt.2',
@@ -233,7 +231,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/7QL0A7SnSrM',
         album_id: 29,
         genre_id: 3,
-        audio: ''
+        audio: 'jail2.mp3'
     },
     {
         song_name:'Dream Unfold',
@@ -241,7 +239,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/BVpRYDNOX0I',
         album_id: 30,
         genre_id: 3,
-        audio: ''
+        audio: 'dreams_unfold.mp3'
     },
     {
         song_name:'Eres',
@@ -249,15 +247,15 @@ const songData = [
         youtube:'https://www.youtube.com/embed/98Akpf1ph2o',
         album_id: 31,
         genre_id: 4,
-        audio: ''
+        audio: 'eres.mp3'
     },
     {
         song_name:'Como te extraño mi amor',
         lyrics:'Cómo te extraño mi amor, ¿por qué será? Me falta todo en la vida si no estás Cómo te extraño mi amor, ¿qué debo hacer? Te extraño tanto que voy a enloquecer',
-        youtube:'https://www.youtube.com/embed/RmsICVbs8Z4',
+        youtube:'https://www.youtube.com/embed/-vExohgAKGE',
         album_id: 32,
         genre_id: 4,
-        audio: ''
+        audio: 'extrano.mp3'
     },
     {
         song_name:'Mi cucu',
@@ -265,23 +263,23 @@ const songData = [
         youtube:'https://www.youtube.com/embed/6AQSUBEkVHk',
         album_id: 33,
         genre_id: 4,
-        audio: ''
+        audio: 'mi_cucu.mp3'
     },
     {
         song_name:'Amor de mis Amores',
         lyrics:'Poniendo la mano en el corazón Quisiera decirte al compás de un son Que tú eres mi vida Y no quiero a nadie más que a ti',
-        youtube:'https://www.youtube.com/embed/GEU64HPZI8I',
+        youtube:'https://www.youtube.com/embed/pAHXkLhbaFU',
         album_id: 33,
         genre_id: 4,
-        audio: ''
+        audio: 'amore_de.mp3'
     },
     {
         song_name:'El Viejo del Sombrerón',
         lyrics:'Dicen que es vino tinto Pero es un rojo uva mi carrito Es un ultimo modelo El siempre anda va conmigo a donde quiera voy mi carrito Por que el es mi compañero ese carrito es mi vida De el nunca he tenido quejas Cuando consigo a una chica El me lleva a donde quiera Cuando consigo a una chica El me lleva a donde quiera',
-        youtube:'https://www.youtube.com/embed/Y4DkbHSXqEw',
+        youtube:'https://www.youtube.com/embed/VjJRks8JL88',
         album_id: 33,
         genre_id: 4,
-        audio: ''
+        audio: 'el_viejo.mp3'
     },
     {
         song_name:'Amanete Bandido',
@@ -289,23 +287,23 @@ const songData = [
         youtube:'https://www.youtube.com/embed/lA9p_fpUxnY',
         album_id: 34,
         genre_id: 4,
-        audio: ''
+        audio: 'amante_bandido.mp3'
     },
     {
         song_name:'Morena Mia',
         lyrics:'Morena mia, voy a contarte hasta diez No es el sol que te alumbra, Dos tus piernas que matan, somos tres en tu cama, Tres (hablado) Morena mia, el cuarto viene despues, Cinco tus continentes Seis las medias faenas de mis medios calientes, Sigo contando ahorita (hablado) Bien, bien, bien, bien, bien, bien',
-        youtube:'https://www.youtube.com/embed/rDIfSaMXwNc',
+        youtube:'https://www.youtube.com/embed/ljO63sL2CWc',
         album_id: 35,
         genre_id: 4,
-        audio: ''
+        audio: 'morena_mia.mp3'
     },
     {
-        song_name:'El último adiós',
-        lyrics:'Aunque vengas de rodillas y me implores, y me pidas Aunque vengas y me llores, que te absuelva y te perdone Aunque a mí me causes pena, te he tirado tus cadenas Y te dedico esta ranchera por ser el último adiós',
-        youtube:'https://www.youtube.com/embed/jNLU_A1d_60',
+        song_name:'Amiga',
+        lyrics:'Ahora que te busco y Tu no estas, recuerdo Que solo la tristeza Quiere hablar conmigo Ahora que la lluvia Se ha llevado el Ultimo jirón de Tu vestido Ahora que he olvidado Lo que soy, recuerdo En el pasado lo que He sido',
+        youtube:'https://www.youtube.com/embed/gXJat06ODLw',
         album_id: 36,
         genre_id: 4,
-        audio: ''
+        audio: 'amiga.mp3'
     },
     {
         song_name:'Despacito',
@@ -313,7 +311,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/kJQP7kiw5Fk',
         album_id: 37,
         genre_id: 4,
-        audio: ''
+        audio: 'despacito.mp3'
     },
     {
         song_name:'Con Calma',
@@ -321,7 +319,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/DiItGE3eAyQ',
         album_id: 38,
         genre_id: 4,
-        audio: ''
+        audio: 'con_calma.mp3'
     },
     {
         song_name:'Shaky Shaky',
@@ -329,7 +327,7 @@ const songData = [
         youtube:'https://www.youtube.com/embed/aKuivabiOns',
         album_id: 39,
         genre_id: 4,
-        audio: ''
+        audio: 'shaky.mp3'
     },
 ];
 
