@@ -2,21 +2,19 @@
     <div class="col">
         <div class="card">
             <h5 class="card-title text-center">{{album_name}}</h5>
-              <img src="/assets/artCovers/{{image}} " class="card-img-top img-fluid rounded mx-auto d-block" alt="{{image}}" style="width: 500px; height: 500px"> 
+            <img src="/assets/artCovers/{{image}} " class="card-img-top img-fluid rounded mx-auto d-block"
+                alt="{{image}}" style="width: 500px; height: 500px">
             {{#each songs as |song|}}
 
             <li><a href="{{youtube}}"></a>{{song_name}}</a></li>
             <span>
                 <button class="btn" type="button" style='font-size:2rem; display:inline-block'
-                    data-content="{{youtube}}" 
-                    data-id='{{id}}'
-                    data-name='{{song_name}}'
+                    data-content="{{youtube}}" data-id='{{id}}' data-name='{{song_name}}'
                     data-audio='{{audio}}'>♡</button>
             </span>
             {{/each}}
             {{#each songs as |song|}}
-            <iframe width="560" height="315" src="{{youtube}}"
-                title="YouTube video player" frameborder="0"
+            <iframe width="560" height="315" src="{{youtube}}" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             {{/each}}
@@ -29,6 +27,23 @@
 
             <a>{{youtube}}</a>
             </iframe>
+
+
+            {{#each songs as |song|}}
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <input id="title" type="hidden"><input id="artist" type="hidden">
+            <button onclick="findlyrics()">Show Lyrics</button>
+            <div id="output"></div>
+            <script>
+                function findlyrics() {
+                    $.get("https://api.lyrics.ovh/v1/" + "{{@root.artist_name}}" + "/" + "{{song_name}}",
+                        function (data) {
+                            document.getElementById("output").innerHTML = data.lyrics.replace(new RegExp("\n", "g"), "<br>")
+                        })
+                    console.log(findlyrics)
+                }
+            </script>
+            {{/each}}
 
         </div>
     </div>
