@@ -4,7 +4,7 @@ const { User } = require('../../models');
 router.post('/', async (req, res) => {
     try {
         console.log(req.body);
-        const userData = await User.create ({
+        const userData = await User.create({
             user_name: req.body.user_name,
             email: req.body.email,
             password: req.body.password,
@@ -31,7 +31,7 @@ router.post('/login', async (req, res) => {
             return;
         }
 
-        const validPassword = await userData.checkPassword(req.body.password);
+        const validPassword = userData.checkPassword(req.body.password);
         
 
         if(!validPassword){
@@ -41,7 +41,7 @@ router.post('/login', async (req, res) => {
 
         req.session.save(() => {
             req.session.loggedIn = true;
-            res.status(200).json({ user: userData, message: 'Successful Login!' });
+            res.status(200).json({ message: 'Successful Login!' });
         });
     } catch (err){
         console.log(err);
