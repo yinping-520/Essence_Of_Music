@@ -20,7 +20,16 @@ https://eom-10-4.herokuapp.com/login
 ###### Link to GitHub Repository
 https://github.com/Thurstoncox3/Essence_Of_Music
 ## Screenshot 
-[!Screenshot]Screenshot
+![landing page](public/assets/readme_pic/landing_page.png)
+
+![genre page](public/assets/readme_pic/genre.png)
+
+![artist page](public/assets/readme_pic/artists.png)
+
+![song page](public/assets/readme_pic/song.png)
+
+![playlist page](public/assets/readme_pic/playlist.png)
+
 ## Usage
 The user will be presented with the Essence of Music login page initially. If this is the first time the User is signing in, they will be asked to create a profile. Once the profile is established, they will be presented with our Music Genre page, where they can select from our options of Pop, Country, Hip-Hop, etc.
 
