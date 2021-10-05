@@ -51,7 +51,7 @@ const songData = [
         audio: 'happier.mp3'
     },
     {
-        song_name:'Take My Breath Away',
+        song_name:'Take My Breath',
         lyrics:'I saw the fire in your eyes I saw the fire when I look into your eyes You tell me things you wanna try',
         youtube:'https://www.youtube.com/embed/rhTl_OyehF8',
         album_id: 7,
@@ -74,7 +74,7 @@ const songData = [
         audio: 'love_again.mp3'
     },
     {
-        song_name:'Heat Wave',
+        song_name:'Heat Waves',
         lyrics:'Sometimes, all I think about is you Late nights in the middle of June Heat waves been faking me out Can\'t make you happier now',
         youtube:'https://www.youtube.com/embed/mRD0-GxqHVo',
         album_id: 10,
@@ -106,7 +106,7 @@ const songData = [
         audio: 'burn_out.mp3'
     },
     {
-        song_name:'Achy Breaky Hearts',
+        song_name:'Achy Breaky Heart',
         lyrics:'But don\'t tell my heart, my achy breaky heart I just don\'t think he\'d understand And if you tell my heart, my achy breaky heart He might blow up and kill this man Ooh',
         youtube:'https://www.youtube.com/embed/byQIPdHMpjc',
         album_id: 14,
@@ -114,7 +114,7 @@ const songData = [
         audio: 'achy_breaky.mp3'
     },
     {
-        song_name:'Tennesse Whisky',
+        song_name:'Tennessee Whiskey',
         lyrics:'You\'re as smooth as Tennessee whiskey You\'re as sweet as strawberry wine You\'re as warm as a glass of brandy And honey, I stay stoned on your love all the time',
         youtube:'https://www.youtube.com/embed/4zAThXFOy2c',
         album_id: 15,
@@ -234,7 +234,7 @@ const songData = [
         audio: 'jail2.mp3'
     },
     {
-        song_name:'Dream Unfold',
+        song_name:'Dreams Unfold',
         lyrics:'I\'m way too lit up in that h** Heart so hard, I get that dough They want work, come get that smoke Hop out the trunk, you hear that blow That\'s your b****, come get that h** She wan\' s*** me, get that throat I\'m way-way up, don\'t give no f**** I lost my heart, like, \"Where that go?\" This ain\'t no game, I\'m in that zone No X and O\'s, no tic-tac-toe I crossed my heart, don\'t hope to die But if I do, don\'t let that go I pray my soul don\'t get that cold My jewelry freezin\' in that snow When you gon\' watch my dreams unfold That\'s the truest s*** I know',
         youtube:'https://www.youtube.com/embed/BVpRYDNOX0I',
         album_id: 30,
@@ -250,7 +250,7 @@ const songData = [
         audio: 'eres.mp3'
     },
     {
-        song_name:'Como te extraño mi amor',
+        song_name:'Como te extrano mi amor',
         lyrics:'Cómo te extraño mi amor, ¿por qué será? Me falta todo en la vida si no estás Cómo te extraño mi amor, ¿qué debo hacer? Te extraño tanto que voy a enloquecer',
         youtube:'https://www.youtube.com/embed/-vExohgAKGE',
         album_id: 32,
@@ -282,7 +282,7 @@ const songData = [
         audio: 'el_viejo.mp3'
     },
     {
-        song_name:'Amanete Bandido',
+        song_name:'Amante Bandido',
         lyrics:'Yo seré el viento que va Navegaré por tu oscuridadTu rocío, beso frío, que me quemará',
         youtube:'https://www.youtube.com/embed/lA9p_fpUxnY',
         album_id: 34,

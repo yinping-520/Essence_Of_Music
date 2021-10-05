@@ -32,7 +32,7 @@
             {{#each songs as |song|}}
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <input id="title" type="hidden"><input id="artist" type="hidden">
-            <button onclick="findlyrics()">Show Lyrics</button>
+            <button onclick="findlyrics()">Show Lyrics for {{song_name}}</button>
             <div id="output"></div>
             <script>
                 function findlyrics() {
