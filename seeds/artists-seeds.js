@@ -152,7 +152,7 @@ const artistData = [
         image:'joyner.jpg'
     },
     {
-        artist_name: 'Café Tacuba',
+        artist_name: 'Café Tacvba',
         genre_id: 4,
         image:'Cafe.jpg'
     },
