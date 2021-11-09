@@ -36,9 +36,6 @@ One the user has selected the genre, they can select an artist, a song, or even 
     - Node.js
     - Lyric API
 
-[Github Repo](https://github.com/yinping-520/Essence_Of_Music)
-
-
 ## Screenshot 
 ![landing page](public/assets/readme_pic/landing_page.png)
 
@@ -50,6 +47,7 @@ One the user has selected the genre, they can select an artist, a song, or even 
 
 ![playlist page](public/assets/readme_pic/playlist.png)
 
+## [Github Repo](https://github.com/yinping-520/Essence_Of_Music)
 
 
 ## Collaborators/Contact
