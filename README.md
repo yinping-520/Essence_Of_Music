@@ -28,6 +28,19 @@ The user will be presented with the Essence of Music login page initially. If th
 
 One the user has selected the genre, they can select an artist, a song, or even a clip of the artist music video. If the User likes the song, click the "like" button to save the song into your My Playlist library. These songs will be saved for when the user logs back into the EOM page.
 
+## Installation:
+
+This program can be run through a browser using the above link to the the deployed application. Alternatively, to run this application locally you will need to:
+
+* Clone this repository to receive all of the files
+* Set up your environment variables in a .env file
+* Run "npm install" in the command line of your terminal to set up all of the dependencies
+* Initialize your database by running the "schema.sql" file with MySQL
+* Populate the existing database items by running "npm run seed" in your terminal
+* Run "npm start" to start the application's connection
+* Go to the url of the application (http//:localhost:3001) to begin using it
+
+
 ## Technologies Used
     - Express/Express-Handlebars/Express-Session
     - SequelizeStore/Sequelize ORM
