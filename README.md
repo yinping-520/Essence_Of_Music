@@ -1,6 +1,13 @@
 # Essence_Of_Music
 
-## [Live Website/Deployed link](https://eom-10-4.herokuapp.com/login)
+### [Live Website/ Deployed link](https://eom-10-4.herokuapp.com/login)
+
+## trial account: 
+```
+   username: test
+   password: 1234567890
+   email: test@test.com
+   ```
 
 ## User Story
 ```
