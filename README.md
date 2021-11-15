@@ -8,6 +8,8 @@
    password: 1234567890
    email: test@test.com
    ```
+## Summary
+Essence of Music (EOM) is a music application for users to find and listen to the music they like.
 
 ## User Story
 ```
